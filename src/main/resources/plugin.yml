@@ -1,0 +1,16 @@
+name: TitleGenerator
+main: luewxp.serv00.net.titleGenerator.TitleGenerator
+version: 1.0
+api-version: 1.13
+commands:
+  titlegen:
+    description: 生成标题命令
+    usage: /<command> <execute|generate|help|reload> [参数]
+    permission: titlegen.use
+permissions:
+  titlegen.use:
+    description: 允许使用titlegen命令
+    default: op
+  titlegen.admin:
+    description: 允许重载插件配置
+    default: op
